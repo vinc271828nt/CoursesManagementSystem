@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.coursesmanagementsystem.MainActivity">
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_left"
+        android:layout_marginEnd="@dimen/margin_right"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_centerHorizontal="true"
+        android:maxLines="1"
+        android:hint="@string/plz_insert_name"/>
+
+    <EditText
+        android:id="@+id/edit_text_sno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_left"
+        android:layout_marginEnd="@dimen/margin_right"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edit_text_name"
+        android:maxLines="1"
+        android:hint="@string/plz_insert_sno"/>
+    <Button
+        android:id="@+id/button_insert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_left"
+        android:layout_marginEnd="@dimen/margin_right"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edit_text_sno"
+        android:text="@string/insert_button"
+        android:paddingStart="@dimen/padding_16dp"
+        android:paddingRight="@dimen/padding_16dp"
+        android:paddingEnd="@dimen/padding_16dp"
+        android:gravity="center"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/margin_8dp"
+        android:background="@color/colorLine"
+        android:layout_below="@id/button_insert"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_below="@id/button_insert"
+        android:id="@+id/user_list_view">
+    </ListView>
+
+
+</RelativeLayout>

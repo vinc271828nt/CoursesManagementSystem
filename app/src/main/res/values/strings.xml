@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CoursesManagementSystem</string>
+    <string name="app_name_zch">校园信息管理助手</string>
+    <string name="user_management">用户管理</string>
+    <string name="plz_insert_name">请输入姓名</string>
+    <string name="insert_button">添       加</string>
+    <string name="plz_insert_sno">请输入学号</string>
+</resources>
